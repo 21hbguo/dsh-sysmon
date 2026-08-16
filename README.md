@@ -4,6 +4,8 @@
 
 ![version](https://img.shields.io/badge/version-0.1.0-4f8ef7) ![license](https://img.shields.io/badge/license-BSD--3--Clause-9b59b6) ![platform](https://img.shields.io/badge/platform-DSH%20Web-00c2a8)
 
+![系统性能悬浮窗：CPU / 内存 / 磁盘 / 网络 / 负载实时监控](docs/screenshots/sysmon-widget.png)
+
 ## ✨ 功能特性
 
 | 功能 | 说明 |
