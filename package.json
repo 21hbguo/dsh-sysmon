@@ -27,6 +27,27 @@
     "./package.json": "./package.json"
   },
   "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21hbguo/dsh-sysmon.git"
+  },
+  "homepage": "https://github.com/21hbguo/dsh-sysmon#readme",
+  "bugs": {
+    "url": "https://github.com/21hbguo/dsh-sysmon/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "deepseek-harness",
+    "system-monitoring",
+    "sysmon",
+    "performance",
+    "dashboard",
+    "metrics",
+    "network",
+    "gpu"
+  ],
   "peerDependencies": {
     "@deepseek-ai/dsh-client-locale": ">=0.0.1-rc <2",
     "@deepseek-ai/dsh-client-runtime": ">=0.0.1-rc <2",
@@ -37,6 +58,14 @@
     "cordis": ">=4.0.0-rc <5",
     "react": "^18.2.0",
     "schemastery": "^3.18.0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-client-locale": { "optional": true },
+    "@deepseek-ai/dsh-client-runtime": { "optional": true },
+    "@deepseek-ai/dsh-client-ui-settings": { "optional": true },
+    "@deepseek-ai/dsh-client-ui-slots": { "optional": true },
+    "@deepseek-ai/dsh-host-webserver": { "optional": true },
+    "@deepseek-ai/dsh-settings": { "optional": true }
   },
   "devDependencies": {
     "@types/node": "^22.20.0",
